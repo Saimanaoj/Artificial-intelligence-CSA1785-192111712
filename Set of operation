@@ -1,0 +1,15 @@
+
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+
+print("Union of A and B: ", A | B)
+
+print("Intersection of A and B: ", A & B)
+
+print("Difference of A and B: ", A - B)
+
+print("Symmetric Difference of A and B: ", A ^ B)
+
+print("Is B a subset of A: ", B.issubset(A))
+
+print("Is A a superset of B: ", A.issuperset(B))
