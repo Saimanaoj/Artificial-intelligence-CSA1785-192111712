@@ -1,0 +1,9 @@
+import calendar
+
+def generate_calendar(year, month):
+   
+    c = calendar.TextCalendar(calendar.SUNDAY)
+    str = c.formatmonth(year, month)
+    print(str)
+
+generate_calendar(2022, 1)
