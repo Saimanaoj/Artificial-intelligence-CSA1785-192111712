@@ -1,0 +1,7 @@
+def minimax(node, is_max):    
+  
+    if (node.left is None and node.right is None):
+        return Choice("end", node.value)
+
+    l_choice = minimax(node.left, not is_max)
+    r_choice = minimax(node.right, not is_max)
