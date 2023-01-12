@@ -1,0 +1,11 @@
+def laser_vector(laser):
+    laser_vectorized = []
+    for d,a in laser:
+        
+        x = d * math.cos(a) * -1
+        y = d * math.sin(a) * -1
+        v = (x,y)
+        laser_vectorized += [v]
+
+    laser_mean = np.mean(laser_vectorized, axis=0)
+    return laser_mean
