@@ -1,0 +1,6 @@
+num.random.seed(0)
+X, y = datasets.make_moons(200, noise=0.20)# Generating and plotting the dataset 
+# nodes
+inputlayer_dimensionality = 4 
+outputlayer_dimensionality = 3 
+hiddenlayer_dimensionality = 6 
